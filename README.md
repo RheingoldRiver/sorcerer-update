@@ -11,3 +11,5 @@ SORCERER wiki: https://sorcererbyriver.wiki.gg/wiki/Main_Page
 <code>update.py</code> is an example wiki updating script.
 
 Because there may be user content that you don't want to overwrite (e.g. trivia, strategy sections, etc) a different method is needed for updating.
+
+For the sake of example, these two scripts are self-contained, but in reality you would probably want much of the logic to be handled in a shared formatter class.
