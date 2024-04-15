@@ -1,0 +1,122 @@
+{
+  "orange": {
+    "ingredients": [],
+    "weight": 5,
+    "element": "Earth"
+  },
+  "crystal shard": {
+    "ingredients": [],
+    "weight": 2,
+    "element": "Air"
+  },
+  "mystic feather": {
+    "ingredients": [],
+    "weight": 1,
+    "element": "Air"
+  },
+  "sunstone": {
+    "ingredients": [],
+    "weight": 3,
+    "element": "Fire"
+  },
+  "orange juice": {
+    "ingredients": [
+      {
+        "ingredient": "orange",
+        "quantity": 5
+      }
+    ],
+    "weight": 10,
+    "element": "Water"
+  },
+  "crystal amulet": {
+    "ingredients": [
+      {
+        "ingredient": "crystal shard",
+        "quantity": 3
+      }
+    ],
+    "weight": 6,
+    "element": "Air"
+  },
+  "mystic ink": {
+    "ingredients": [
+      {
+        "ingredient": "mystic feather",
+        "quantity": 2
+      }
+    ],
+    "weight": 2,
+    "element": "Water"
+  },
+  "sunshine elixir": {
+    "ingredients": [
+      {
+        "ingredient": "sunstone",
+        "quantity": 1
+      },
+      {
+        "ingredient": "orange juice",
+        "quantity": 1
+      }
+    ],
+    "weight": 5,
+    "element": "Fire"
+  },
+  "featherlight boots": {
+    "ingredients": [
+      {
+        "ingredient": "mystic feather",
+        "quantity": 4
+      },
+      {
+        "ingredient": "crystal shard",
+        "quantity": 2
+      }
+    ],
+    "weight": 3,
+    "element": "Air"
+  },
+  "reflective cloak": {
+    "ingredients": [
+      {
+        "ingredient": "crystal shard",
+        "quantity": 5
+      },
+      {
+        "ingredient": "mystic feather",
+        "quantity": 3
+      }
+    ],
+    "weight": 8,
+    "element": "Light"
+  },
+  "flameheart pendant": {
+    "ingredients": [
+      {
+        "ingredient": "sunstone",
+        "quantity": 2
+      },
+      {
+        "ingredient": "crystal shard",
+        "quantity": 1
+      }
+    ],
+    "weight": 4,
+    "element": "Fire"
+  },
+  "mystic quill": {
+    "ingredients": [
+      {
+        "ingredient": "mystic feather",
+        "quantity": 2
+      },
+      {
+        "ingredient": "mystic ink",
+        "quantity": 1
+      }
+    ],
+    "weight": 1,
+    "element": "Magic"
+  }
+}
