@@ -16,7 +16,13 @@ with open('items.json', 'r', encoding='utf-8') as f:
 
 class TemplateModifier(TemplateModifierBase):
     def update_template(self, template: Template):
+        # TemplateModifier is a generic framework for modifying templates
+        # It will iterate through all pages containing at least one instance
+        # of the specified template in the initialization call below and then
+        # update every instance of the template in question with one batched edit per page
         if self.current_page.namespace != 0:
+            # don't do anything outside of the main namespace
+            # for example, we don't want to modify template documentation or user sandboxes
             return
         info = data[self.current_page.name.lower()]
         template.add('Weight', info['weight'])
@@ -24,6 +30,7 @@ class TemplateModifier(TemplateModifierBase):
         if (recipe := self.get_recipe_text(info)) is None:
             return
         template.add('Recipe', recipe)
+        # any changes made before returning will automatically be saved by the runner
 
     @staticmethod
     def get_recipe_text(info):
