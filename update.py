@@ -7,7 +7,11 @@ from mwcleric import WikiggClient
 from mwparserfromhell.nodes import Template
 
 credentials = AuthCredentials(user_file="me")
-site = WikiggClient('sorcererbyriver', credentials=credentials)
+# the following login has been changed to edit gg.wiki.gg rather than sorcererbyriver.wiki.gg
+# gg.wiki.gg is our sandbox wiki that anyone may edit for any reason to test scripts
+# so while you are testing your code, you can leave this as-is and view changes at gg.wiki.gg
+# then change it to your wiki afterwards
+site = WikiggClient('gg', credentials=credentials)
 summary = 'Automatically updating infobox from changed data'
 
 with open('items.json', 'r', encoding='utf-8') as f:
