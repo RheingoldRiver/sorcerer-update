@@ -19,3 +19,6 @@ For the sake of example, these two scripts are self-contained, but in reality yo
 If you are going to base your own create/update scripts on this repo, please fork it instead of making a new repo! This way, the [list of forks](https://github.com/RheingoldRiver/sorcerer-update/forks) will be useful to people. You could also consider submitting a PR with a link to your repo in the README of [example_wiki_scripts](https://github.com/RheingoldRiver/example_wiki_scripts).
 
 You could also star it ;)
+
+## Python wiki class
+[This wiki class](https://www.youtube.com/watch?v=YQZ1cZQJzUk) has an example of me writing some Python code for a the ONI wiki
