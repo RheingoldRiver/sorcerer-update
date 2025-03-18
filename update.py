@@ -11,7 +11,7 @@ credentials = AuthCredentials(user_file="me")
 # gg.wiki.gg is our sandbox wiki that anyone may edit for any reason to test scripts
 # so while you are testing your code, you can leave this as-is and view changes at gg.wiki.gg
 # then change it to your wiki afterwards
-site = WikiggClient('gg', credentials=credentials)
+site = WikiggClient('test', credentials=credentials)
 summary = 'Automatically updating infobox from changed data'
 
 with open('items.json', 'r', encoding='utf-8') as f:
