@@ -7,9 +7,9 @@ from mwcleric import WikiggClient
 from mwparserfromhell.nodes import Template
 
 credentials = AuthCredentials(user_file="me")
-# the following login has been changed to edit gg.wiki.gg rather than sorcererbyriver.wiki.gg
-# gg.wiki.gg is our sandbox wiki that anyone may edit for any reason to test scripts
-# so while you are testing your code, you can leave this as-is and view changes at gg.wiki.gg
+# the following login has been changed to edit test.wiki.gg rather than sorcererbyriver.wiki.gg
+# test.wiki.gg is our sandbox wiki that anyone may edit for any reason to test scripts
+# so while you are testing your code, you can leave this as-is and view changes at test.wiki.gg
 # then change it to your wiki afterwards
 site = WikiggClient('test', credentials=credentials)
 summary = 'Automatically updating infobox from changed data'
